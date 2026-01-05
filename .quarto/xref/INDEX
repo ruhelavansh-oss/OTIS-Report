@@ -1,0 +1,44 @@
+{
+  "index.qmd": {
+    "index.html": "816b0ef6"
+  },
+  "intro.qmd": {
+    "intro.html": "6264b5b8"
+  },
+  "summary.qmd": {
+    "summary.html": "111a8eec"
+  },
+  "references.qmd": {
+    "references.html": "84ed6ac8"
+  },
+  "wrangling.qmd": {
+    "wrangling.html": "661326d7"
+  },
+  "background.qmd": {
+    "background.html": "0d378d42"
+  },
+  "descriptives.qmd": {
+    "descriptives.html": "6d4c1105"
+  },
+  "notations.qmd": {
+    "notations.html": "d253cd4b"
+  },
+  "Notations.qmd": {
+    "Notations.html": "d4c2ba42"
+  },
+  "results.qmd": {
+    "results.html": "12c74d90"
+  },
+  "prelim_report.qmd": {
+    "prelim_report.html": "54f56de3"
+  },
+  "final_report.qmd": {
+    "final_report.html": "77154b54"
+  },
+  "explority.qmd": {
+    "explority.html": "e9af50d4"
+  },
+  "notez1a.qmd": {
+    "notez1a.html": "9fc18dcc"
+  }
+}

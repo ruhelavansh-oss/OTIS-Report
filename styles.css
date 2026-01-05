@@ -1,0 +1,17 @@
+/* Global font (HTML book/site) */
+/* :root, body {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+}
+
+/* Headings match */
+ /* h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+} */
+
+Sidebar title smaller on ALL non-home pages
+body:not(.quarto-home) #quarto-sidebar .sidebar-title,
+body:not(.quarto-home) #quarto-sidebar .sidebar-header .title,
+body:not(.quarto-home) #quarto-sidebar .sidebar-header a.title {
+  font-size: 0.85rem !important; 
+  line-height: 1.15 !important;
+}  

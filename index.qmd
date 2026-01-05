@@ -1,0 +1,5 @@
+# Preface {.unnumbered}
+
+This scientific project is actively being developed for investigating OTIS Data.[^index-1] 
+
+[^index-1]: Service Management and Oversight Branch's detailed data collection of restrictive confinement placements (A01RCDD) in Ontario's Adult Correctional System is maintained by the Business Intelligence and Insights Branch of the Ministry of the Solicitor General. For the partial MECA Bundle, see <https://vanshsinghruhela-statistical-report-on-restrictive-confinement.share.connect.posit.cloud>.

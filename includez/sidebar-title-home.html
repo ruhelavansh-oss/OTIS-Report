@@ -1,0 +1,14 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  // homepage is typically .../ or .../index.html
+  const isHome = /\/(index\.html)?$/.test(window.location.pathname);
+  if (!isHome) return;
+
+  const el =
+    document.querySelector("#quarto-sidebar .sidebar-title") ||
+    document.querySelector("#quarto-sidebar .sidebar-header .title") ||
+    document.querySelector("#quarto-sidebar .sidebar-header a.title");
+
+  if (el) el.textContent = "OTIS Report";
+});
+</script>

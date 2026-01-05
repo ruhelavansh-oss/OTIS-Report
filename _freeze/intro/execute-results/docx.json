@@ -1,0 +1,21 @@
+{
+  "hash": "0915863987daa107eb03cbf44b51e7cd",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Introduction\n\n\n\n### A01-RC Detailed Dataset\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n\nTable: Ontario Restrictive Confinement Dataframe (2023-2025)\n\n|  x1a|x1b      |x1c      |x1d  |x1e      |x1f |x1g |x1h | x1i|\n|----:|:--------|:--------|:----|:--------|:---|:---|:---|---:|\n| 2023|Toronto  |Toronto  |Male |25 to 49 |No  |Yes |No  |   8|\n| 2023|Toronto  |Toronto  |Male |25 to 49 |No  |No  |No  |  26|\n| 2023|Northern |Northern |Male |50+      |No  |No  |No  |  20|\n| 2023|Eastern  |Eastern  |Male |25 to 49 |Yes |Yes |No  |   9|\n| 2023|Western  |Western  |Male |25 to 49 |No  |Yes |No  |  11|\n| 2023|Eastern  |Eastern  |Male |50+      |No  |No  |No  |   8|\n| 2023|Eastern  |Eastern  |Male |50+      |No  |No  |No  |   8|\n| 2023|Central  |Central  |Male |25 to 49 |No  |No  |No  |  10|\n| 2023|Northern |Northern |Male |50+      |No  |No  |No  |   3|\n| 2023|Western  |Western  |Male |25 to 49 |No  |No  |No  |  11|\n\n\n:::\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](intro_files/figure-docx/unnamed-chunk-3-1.png)\n:::\n\n::: {.cell-output-display}\n![](intro_files/figure-docx/unnamed-chunk-3-2.png)\n:::\n\n::: {.cell-output-display}\n![](intro_files/figure-docx/unnamed-chunk-3-3.png)\n:::\n\n::: {.cell-output-display}\n![](intro_files/figure-docx/unnamed-chunk-3-4.png)\n:::\n\n::: {.cell-output-display}\n![](intro_files/figure-docx/unnamed-chunk-3-5.png)\n:::\n\n::: {.cell-output-display}\n![](intro_files/figure-docx/unnamed-chunk-3-6.png)\n:::\n:::\n\n",
+    "supporting": [
+      "intro_files/figure-docx"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

@@ -1,0 +1,6 @@
+---
+title: "Initial Data Profiling Report"
+format: html
+---
+
+<iframe src="../prelim_report.html" style="width:100%; height:95vh; border:0;"></iframe>

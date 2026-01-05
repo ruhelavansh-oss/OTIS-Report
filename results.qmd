@@ -1,0 +1,49 @@
+# DML
+
+![](clustermatrixplot_a01rc1a1a.jpg){fig-cap="Regional Cluster Matrix" fig-align="center" width="100%"}
+
+```{r, echo = FALSE}
+suppressWarnings(suppressPackageStartupMessages({
+  library(data.table)
+  library(tidyverse)
+  library(tidymodels)
+  library(naniar)
+  library(readxl)
+  library(janitor)
+  library(rmarkdown)
+  library(knitr)
+  library(kableExtra)
+  library(modelsummary)
+  library(DoubleML)
+  library(mlr3)
+  library(broom)
+  library(sandwich)
+  library(lmtest)
+  library(mlr3learners)
+  library(readr)
+  library(MatchIt)
+  library(dplyr)
+  library(summarytools)
+  library(DataExplorer)
+  library(mlr3learners)
+  library(mlr3measures)
+  library(mlr3resampling) 
+}))
+load("correctional_stats_report_environment1b.RData")
+library(DoubleML)
+library(mlr3)
+library(mlr3learners)
+library(data.table)
+library(dplyr)
+library(parallel)
+knitr::kable(res_pool, booktabs = TRUE, longtable = TRUE, digits = 4, caption = "Pooled IRM DoubleML (2023–2025)")
+```
+
+```{r, echo = FALSE}
+knitr::kable(res_by_year, booktabs = TRUE, longtable = TRUE, digits = 4, caption = "IRM DoubleML (2023/2024/2025)")
+```
+
+```{r, echo = FALSE}
+load("correctional_stats_report1z.RData")
+knitr::kable(res_all, booktabs = TRUE, longtable = TRUE, digits = 4, caption = "Multi-way Regional Clustering Variations")
+```

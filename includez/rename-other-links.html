@@ -1,0 +1,8 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  // Rename the built-in "Other Links" section title to "Data Profiling"
+  const headings = Array.from(document.querySelectorAll("h1,h2,h3,h4,.h1,.h2,.h3,.h4"));
+  const other = headings.find(h => h.textContent.trim() === "Other Links");
+  if (other) other.textContent = "Data Profiling Reports";
+});
+</script>
