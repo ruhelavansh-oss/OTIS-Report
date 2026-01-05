@@ -4,96 +4,35 @@ server_type = 'connect_cloud'
 server_url = 'https://connect.posit.cloud'
 client_version = '1.27.10'
 created_at = ''
-dismissed_at = ''
+dismissed_at = '2026-01-05T05:52:48-05:00'
 type = 'quarto-static'
-configuration_name = 'Statistical Report on OTIS-036Q'
-id = '019b8d11-61cc-5040-7b2e-30901b66552a'
-dashboard_url = 'https://connect.posit.cloud/vanshsinghruhela/content/019b8d11-61cc-5040-7b2e-30901b66552a'
-direct_url = 'https://019b8d11-61cc-5040-7b2e-30901b66552a.share.connect.posit.cloud'
-logs_url = 'https://connect.posit.cloud/vanshsinghruhela/content/019b8d11-61cc-5040-7b2e-30901b66552a/history'
-deployed_at = '2026-01-05T05:40:12-05:00'
-bundle_id = '019b8dbe-1439-1db6-9cb2-7c9093e2a4af'
+configuration_name = 'Statistical Report on OTIS-35M1'
+id = '019b7c00-3ae0-8fde-a7d6-2af24e725e86'
+dashboard_url = 'https://connect.posit.cloud/vanshsinghruhela/content/019b7c00-3ae0-8fde-a7d6-2af24e725e86'
+direct_url = 'https://019b7c00-3ae0-8fde-a7d6-2af24e725e86.share.connect.posit.cloud'
+logs_url = 'https://connect.posit.cloud/vanshsinghruhela/content/019b7c00-3ae0-8fde-a7d6-2af24e725e86/history'
+deployed_at = '2026-01-05T05:52:48-05:00'
+bundle_id = '019b8dc9-bd35-a31f-2e22-4e9bc9e5729e'
 files = [
-  '.posit/publish/Statistical Report on OTIS-036Q.toml',
-  '.posit/publish/Statistical Report on Restrict-HSN8.toml',
-  '.posit/publish/deployments/deployment-I5G2.toml',
-  '.posit/publish/deployments/deployment-RT8C.toml',
-  '2dbinaryvisualizationSIU2a.jpeg',
+  '.posit/publish/Statistical Report on OTIS-35M1.toml',
+  '.posit/publish/deployments/deployment-965T.toml',
   '_quarto.yml',
   'clustermatrixplot_a01rc1a1a.jpg',
-  'correctional_stats_report_environment.RData',
-  'correctional_stats_report_environment1b.RData',
   'cvr1b.png',
   'descriptives.qmd',
-  'descriptives_files/figure-html/unnamed-chunk-2-1.png',
-  'descriptives_files/figure-html/unnamed-chunk-2-2.png',
-  'descriptives_files/figure-html/unnamed-chunk-2-3.png',
-  'descriptives_files/figure-html/unnamed-chunk-2-4.png',
-  'descriptives_files/figure-html/unnamed-chunk-2-5.png',
-  'descriptives_files/figure-html/unnamed-chunk-2-6.png',
-  'descriptives_files/figure-html/unnamed-chunk-3-1.png',
-  'descriptives_files/figure-html/unnamed-chunk-3-2.png',
-  'descriptives_files/figure-html/unnamed-chunk-3-3.png',
-  'descriptives_files/figure-html/unnamed-chunk-3-4.png',
-  'descriptives_files/figure-html/unnamed-chunk-3-5.png',
-  'descriptives_files/figure-html/unnamed-chunk-3-6.png',
-  'final_report-preview.html',
-  'final_report.embed.ipynb',
-  'final_report.out.ipynb',
-  'final_report.qmd',
-  'final_report_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css',
-  'final_report_files/libs/bootstrap/bootstrap-icons.css',
-  'final_report_files/libs/bootstrap/bootstrap-icons.woff',
-  'final_report_files/libs/bootstrap/bootstrap.min.js',
-  'final_report_files/libs/clipboard/clipboard.min.js',
-  'final_report_files/libs/quarto-html/anchor.min.js',
-  'final_report_files/libs/quarto-html/axe/axe-check.js',
-  'final_report_files/libs/quarto-html/popper.min.js',
-  'final_report_files/libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css',
-  'final_report_files/libs/quarto-html/quarto.js',
-  'final_report_files/libs/quarto-html/tabsets/tabsets.js',
-  'final_report_files/libs/quarto-html/tippy.css',
-  'final_report_files/libs/quarto-html/tippy.umd.min.js',
-  'finne_env.RData',
   'includez/rename-other-links.html',
   'includez/sidebar-title-home.html',
   'index.qmd',
   'intro.qmd',
   'notez1a.qmd',
-  'predictionplot1b.jpeg',
-  'prelim_report-preview.html',
-  'prelim_report.embed.ipynb',
-  'prelim_report.html',
-  'prelim_report.out.ipynb',
-  'prelim_report.qmd',
-  'prelim_report_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css',
-  'prelim_report_files/libs/bootstrap/bootstrap-icons.css',
-  'prelim_report_files/libs/bootstrap/bootstrap-icons.woff',
-  'prelim_report_files/libs/bootstrap/bootstrap.min.js',
-  'prelim_report_files/libs/clipboard/clipboard.min.js',
-  'prelim_report_files/libs/quarto-html/anchor.min.js',
-  'prelim_report_files/libs/quarto-html/axe/axe-check.js',
-  'prelim_report_files/libs/quarto-html/popper.min.js',
-  'prelim_report_files/libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css',
-  'prelim_report_files/libs/quarto-html/quarto.js',
-  'prelim_report_files/libs/quarto-html/tabsets/tabsets.js',
-  'prelim_report_files/libs/quarto-html/tippy.css',
-  'prelim_report_files/libs/quarto-html/tippy.umd.min.js',
   'references.bib',
   'references.qmd',
   'renv.lock',
-  'report.html',
-  'results.qmd',
-  'styles.css'
+  'results.qmd'
 ]
 
 [connect_cloud]
 account_name = 'vanshsinghruhela'
-
-[deployment_error]
-code = 'unknown'
-message = 'Unable to render: Unable to render your content. Please check the logs for more information.'
-operation = 'publish/deployContent'
 
 [configuration]
 product_type = 'connect_cloud'
@@ -107,64 +46,16 @@ files = [
   '/descriptives.qmd',
   '/results.qmd',
   '/notez1a.qmd',
-  '/references.bib',
-  '/includez/rename-other-links.html',
-  '/includez/sidebar-title-home.html',
-  '/cvr1b.png',
-  '/_quarto.yml',
-  '/clustermatrixplot_a01rc1a1a.jpg',
-  '.posit/publish/deployments/renv.lock',
-  '/renv.lock',
-  '/.posit/publish/Statistical Report on OTIS-036Q.toml',
-  '/.posit/publish/deployments/deployment-I5G2.toml',
-  '/.posit/publish/Statistical Report on Restrict-HSN8.toml',
-  '/.posit/publish/deployments/deployment-RT8C.toml',
-  '/.posit/publish/deployments',
-  '/index.qmd',
-  '/intro.qmd',
-  '/descriptives.qmd',
-  '/results.qmd',
   '/references.qmd',
   '/references.bib',
-  '/prelim_report.html',
-  '/final_report.html',
   '/includez/rename-other-links.html',
   '/includez/sidebar-title-home.html',
-  '/styles.css',
   '/cvr1b.png',
   '/_quarto.yml',
   '/clustermatrixplot_a01rc1a1a.jpg',
-  '/.posit/publish/Statistical Report on Restrict-HSN8.toml',
-  '/.posit/publish/deployments/deployment-RT8C.toml',
-  '/correctional_stats_report_environment.RData',
-  '/2dbinaryvisualizationSIU2a.jpeg',
-  '/.posit',
-  '/final_report.qmd',
-  '/includez',
-  '/prelim_report.qmd',
-  '/descriptives_files',
-  '/final_report_files',
-  '/explority.qmd',
-  '/explority.rmarkdown',
-  '/final_report-preview.html',
-  '/final_report.embed.ipynb',
-  '/final_report.out.ipynb',
-  '/intro_files',
-  '/prelim_report-preview.html',
-  '/prelim_report.embed.ipynb',
-  '/prelim_report.out.ipynb',
-  '/prelim_report_files',
-  '/results.html',
-  '/site_libs',
-  '/descriptives.html',
-  '/intro.html',
-  '/index.html',
-  '/finne_env.RData',
-  '/notez1a.knit.md',
-  '/notez1a.qmd',
-  '/predictionplot1b.jpeg',
-  '/correctional_stats_report_environment1b.RData',
-  '/report.html'
+  '/renv.lock',
+  '/.posit/publish/Statistical Report on OTIS-35M1.toml',
+  '/.posit/publish/deployments/deployment-965T.toml'
 ]
 title = 'Statistical Report on OTIS'
 

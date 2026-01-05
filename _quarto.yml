@@ -1,9 +1,6 @@
 project:
   type: book
-  resources: 
-   - 'correctional_stats_environment1b.RData'
-   - 'finne_env.rds'
-   - 'finne_env.RData'
+  resources: "correctional_stats_environment1b.RData"
 book:
   title: "Statistical Report on OTIS"
   author:

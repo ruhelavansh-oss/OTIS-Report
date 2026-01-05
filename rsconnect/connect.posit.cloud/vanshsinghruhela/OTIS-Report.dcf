@@ -1,0 +1,10 @@
+name: OTIS-Report
+title:
+username: vanshsinghruhela
+account: vanshsinghruhela
+server: connect.posit.cloud
+hostUrl: https://api.connect.posit.cloud/v1
+appId: 019b8dd0-78ef-3da1-2f44-e86f294f334e
+bundleId:
+url: https://connect.posit.cloud/vanshsinghruhela/content/019b8dd0-78ef-3da1-2f44-e86f294f334e
+version: 1

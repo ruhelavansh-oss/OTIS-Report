@@ -6,3 +6,6 @@ _book/
 _book/finne_env.RData
 _book/finne_env.rds
 correctional_stats_report_environment1c.RData
+
+/.quarto/
+**/*.quarto_ipynb
