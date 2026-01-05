@@ -1,5 +1,8 @@
 *.RData
 *.rds
+*.html
+!includez/*.html
+*.DS_Store
 
 _book/
 _book/finne_env.RData
@@ -8,3 +11,5 @@ correctional_stats_report_environment1c.RData
 
 /.quarto/
 **/*.quarto_ipynb
+.Rprofile
+*.knit.html

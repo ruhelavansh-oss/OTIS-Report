@@ -1,0 +1,9 @@
+finne_env.rds
+finne_env.RData
+correctional_stats_report_environment.RData
+correctional_stats_report_environment1b.RData
+correctional_stats_report1z.RData
+*.RData
+*.rds
+_book/finne_env.rds
+_book/finne_env.RData
