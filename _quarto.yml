@@ -26,34 +26,58 @@ book:
 bibliography: references.bib
 format:
   html:
-    respect-user-color-scheme: true 
-    theme: 
+    respect-user-color-scheme: true
+    theme:
       light:
         - cosmo
         - brand
-      dark: 
+      dark:
         - darkly
         - dracula
     highlight-style: github
     comments:
       hypothesis: false
     other-links:
-      - text: Partial Notebook 
+      - text: "📊 Export: MS Word"
+        href: "Statistical-Report-on-OTIS.docx"
+        icon: file-word
+      - text: "📄 Export: PDF"
+        href: "Statistical-Report-on-OTIS.pdf"
+        icon: file-pdf
+      - text: "📦 MECA Bundle"
         href: "https://vanshsinghruhela-statistical-report-on-restrictive-confinement.share.connect.posit.cloud"
-      - text: Prelim. DPR
-        href: "https://vanshsinghruhela-statistical-report-on-restrictive-confinement.share.connect.posit.cloud/prelim_report.html"
-      - text: Row Exp. DPR
-        href: "https://vanshsinghruhela-statistical-report-on-restrictive-confinement.share.connect.posit.cloud/final_report.html"
+        icon: archive
+      - text: "🐍 Python Notebook"
+        href: "https://vanshsinghruhela-statistical-report-on-restrictive-confinement.share.connect.posit.cloud"
+        icon: code
+      - text: "📈 R Analysis Code"
+        href: "https://github.com/ruhelavansh-oss/OTIS-Report"
+        icon: github
+      - text: "📋 Data Source (Ontario Open Data)"
+        href: "https://data.ontario.ca/dataset/data-on-inmates-in-ontario"
+        icon: database
     include-in-header:
       - includez/rename-other-links.html
       - includez/sidebar-title-home.html
     code-fold: true
-  docx: default
-pdf:
-  documentclass: scrreprt
-
+    toc: true
+    toc-depth: 3
+    number-sections: true
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github
+  pdf:
+    documentclass: scrreprt
+    toc: true
+    number-sections: true
+    colorlinks: true
+    cite-method: biblatex
+    biblio-style: apa
+    keep-tex: true
 epub:
   cover-image: cvr1b.png
+  toc: true
 execute: 
   warning: false
   message: false

@@ -57,6 +57,10 @@ load("correctional_stats_report_environment1b.RData")
 
 ### A01-RC Detailed Dataset
 
+The following analysis utilizes the Restrictive Confinement Detailed Dataset (A01RCDD) maintained by the Service Management and Oversight Branch of Ontario's Ministry of the Solicitor General [@Ontario_SOLGEN_DataOnInmatesOntario_2025; @Ontario_SOLGEN_RC_DetailedDataset_2025]. This administrative data collection tracks all restrictive confinement placements in Ontario's adult correctional system, including segregation practices and associated demographic information.
+
+The dataset is publicly accessible through the Ontario Open Data portal [@Ontario_SOLGEN_DataOnInmatesOntario_2025] and can be queried programmatically via the CKAN Data API [@Ontario_CKAN_API_2025]. Data collection follows protocols established under the *Jahn v. Ontario* settlement agreement [@Ontario_JahnSettlement_2025] and relevant provincial legislation [@Ontario_MCSCS_Act; @Ontario_Correctional_Services_Act].
+
 ```{r, echo = FALSE}
 dataframe_original <- df
 cols_to_rename <- setdiff(names(dataframe_original), "unique_individual_id")
@@ -76,7 +80,7 @@ names(dataframe_original)[match(cols_to_rename, names(dataframe_original))] <- n
 knitr::kable(
   head(dataframe_original[, setdiff(names(dataframe_original), "unique_individual_id")], 10),
   booktabs = TRUE, longtable = TRUE,
-  caption = "Ontario Restrictive Confinement Dataframe (2023-2025)")
+  caption = "Ontario Restrictive Confinement Dataframe (2023-2025). Source: Service Management and Oversight Branch (2025).")
 ```
 
 ```{r, echo = FALSE}
