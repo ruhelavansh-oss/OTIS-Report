@@ -11,11 +11,18 @@ book:
           city: "Toronto"
           state: "ON"
           country: "Canada" 
+  search: true 
+  repo-url: https://github.com/ruhelavansh-oss/OTIS-Report
+  repo-actions: [edit]
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
   date: "2026-01-01"
   sidebar:
     title: "OTIS Report"
     logo: cvr1b.png
     logo-alt: "Book cover"
+    style: docked
+    background: light
   chapters:
     - index.qmd
     - intro.qmd
@@ -45,8 +52,7 @@ format:
         href: "https://vanshsinghruhela-statistical-report-on-restrictive-confinement.share.connect.posit.cloud/prelim_report.html"
       - text: Row Exp. DPR
         href: "https://vanshsinghruhela-statistical-report-on-restrictive-confinement.share.connect.posit.cloud/final_report.html"
-      - text: GitHub
-        href: "https://github.com/ruhelavansh-oss/OTIS-Report"
+
     include-in-header:
       - includez/rename-other-links.html
       - includez/sidebar-title-home.html
