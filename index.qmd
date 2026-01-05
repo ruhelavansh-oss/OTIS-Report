@@ -1,21 +1,4 @@
----
-title-block-style: default
----
-
 # Preface {.unnumbered}
-
-**AUTHOR**
-Vansh Singh Ruhela [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0009-0004-1750-3592)
-
-**AFFILIATION**
-Centre for Criminology & Sociolegal Studies, School of Graduate Studies, University of Toronto St. George
-
-**OTHER FORMATS**
-[MS Word](Statistical-Report-on-OTIS.docx)
-[PDF](Statistical-Report-on-OTIS.pdf)
-[MECA Bundle](https://vanshsinghruhela-statistical-report-on-restrictive-confinement.share.connect.posit.cloud)
-
----
 
 This scientific project is actively being developed for investigating OTIS Data.[^index-1]
 

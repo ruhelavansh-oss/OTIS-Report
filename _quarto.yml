@@ -26,6 +26,7 @@ book:
 bibliography: references.bib
 format:
   html:
+    title-block-banner: true
     respect-user-color-scheme: true
     theme:
       light:
