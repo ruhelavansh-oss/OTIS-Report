@@ -4,7 +4,7 @@ username: vanshsinghruhela
 account: vanshsinghruhela
 server: connect.posit.cloud
 hostUrl: https://api.connect.posit.cloud/v1
-appId: 019b8dc4-260b-8dea-801b-66898fd715fd
+appId: 019b7c00-3ae0-8fde-a7d6-2af24e725e86
 bundleId:
-url:
+url: https://connect.posit.cloud/vanshsinghruhela/content/019b7c00-3ae0-8fde-a7d6-2af24e725e86
 version: 1
