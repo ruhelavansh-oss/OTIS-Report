@@ -33,8 +33,6 @@ book:
 bibliography: references.bib
 format:
   html:
-    title-block-banner: true
-    respect-user-color-scheme: true
     theme:
       light:
         - cosmo
@@ -61,15 +59,10 @@ format:
     number-sections: true
   docx:
     toc: true
-    number-sections: true
     highlight-style: github
   pdf:
     documentclass: scrreprt
     toc: true
-    number-sections: true
-    colorlinks: true
-    cite-method: biblatex
-    biblio-style: apa
     keep-tex: true
 epub:
   cover-image: cvr1b.png
