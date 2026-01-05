@@ -7602,6 +7602,43 @@
         "RemoteSha": "4.7-1.2"
       }
     },
+    "ranger": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "ranger",
+        "Type": "Package",
+        "Title": "A Fast Implementation of Random Forests",
+        "Version": "0.17.0",
+        "Date": "2024-11-08",
+        "Authors@R": "c(\n    person(\"Marvin N.\", \"Wright\", email = \"cran@wrig.de\", role = c(\"aut\", \"cre\")),\n    person(\"Stefan\", \"Wager\", role = \"ctb\"),\n    person(\"Philipp\", \"Probst\", role = \"ctb\"))",
+        "Description": "A fast implementation of Random Forests, particularly suited for high\n          dimensional data. Ensembles of classification, regression, survival and\n          probability prediction trees are supported. Data from genome-wide association\n          studies can be analyzed efficiently. In addition to data frames, datasets of\n          class 'gwaa.data' (R package 'GenABEL') and 'dgCMatrix' (R package 'Matrix') \n          can be directly analyzed.",
+        "License": "GPL-3",
+        "Imports": "Rcpp (>= 0.11.2), Matrix",
+        "LinkingTo": "Rcpp, RcppEigen",
+        "Depends": "R (>= 3.1)",
+        "Suggests": "survival, testthat",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.2",
+        "URL": "https://imbs-hl.github.io/ranger/,\nhttps://github.com/imbs-hl/ranger",
+        "BugReports": "https://github.com/imbs-hl/ranger/issues",
+        "NeedsCompilation": "yes",
+        "Packaged": "2024-11-08 05:11:24 UTC; wright",
+        "Author": "Marvin N. Wright [aut, cre],\n  Stefan Wager [ctb],\n  Philipp Probst [ctb]",
+        "Maintainer": "Marvin N. Wright <cran@wrig.de>",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-11-08 07:40:02 UTC",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-01 11:51:54 UTC; unix",
+        "Archs": "ranger.so.dSYM",
+        "RemoteType": "standard",
+        "RemoteRef": "ranger",
+        "RemotePkgRef": "ranger",
+        "RemoteRepos": "https://cran.rstudio.com",
+        "RemoteReposName": "CRAN",
+        "RemotePkgPlatform": "aarch64-apple-darwin20",
+        "RemoteSha": "0.17.0"
+      }
+    },
     "rappdirs": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -11376,7 +11413,7 @@
       "checksum": "499e4db8f869a6d34f94f3438ba5c08d"
     },
     ".Rprofile": {
-      "checksum": "9473a7d008eea6a77400f6e8d690e6c2"
+      "checksum": "6439e7432093256362ff37d07cc46f1c"
     },
     "2dbinaryvisualizationSIU2a.jpeg": {
       "checksum": "413b86874e6f4f2561584c92282eafad"
@@ -11622,7 +11659,10 @@
       "checksum": "a194fcb732a09feb5373db79cc8a9fa4"
     },
     "notez1a.qmd": {
-      "checksum": "ac8d3f509703f25d452b9c5b6b8dd043"
+      "checksum": "49a246f86e79f1d02a768094cc79813d"
+    },
+    "notez1a.rmarkdown": {
+      "checksum": "9b9b9ef60f799ea64a7a523596a30b0a"
     },
     "panelplotofinterations1a.jpeg": {
       "checksum": "09fdc4eebb9ca8b8e22b759add3c30ad"
@@ -11697,7 +11737,7 @@
       "checksum": "20d3273ad995f344fa1d144ca5d3ecf1"
     },
     "renv.lock": {
-      "checksum": "480ff88511ff2f6e9dbf12a7049c6d89"
+      "checksum": "49e1e02ec3f7975051b9f5abd99f1a49"
     },
     "report.html": {
       "checksum": "5f7d9c7167a7ec8dca2c1e396eb5c65e"
