@@ -49,7 +49,7 @@ format:
     include-in-header:
       - includez/rename-other-links.html
       - includez/sidebar-title-home.html
-    cold-fold: true
+    code-fold: true
   docx: default
 pdf:
   documentclass: scrreprt
