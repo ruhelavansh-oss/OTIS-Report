@@ -13,3 +13,6 @@ correctional_stats_report_environment1c.RData
 **/*.quarto_ipynb
 .Rprofile
 *.knit.html
+
+# Exclude large cache files (> 100MB)
+*_cache/
