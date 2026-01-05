@@ -38,24 +38,14 @@ format:
     comments:
       hypothesis: false
     other-links:
-      - text: "📊 Export: MS Word"
-        href: "Statistical-Report-on-OTIS.docx"
-        icon: file-word
-      - text: "📄 Export: PDF"
-        href: "Statistical-Report-on-OTIS.pdf"
-        icon: file-pdf
-      - text: "📦 MECA Bundle"
+      - text: Partial Notebook
         href: "https://vanshsinghruhela-statistical-report-on-restrictive-confinement.share.connect.posit.cloud"
-        icon: archive
-      - text: "🐍 Python Notebook"
-        href: "https://vanshsinghruhela-statistical-report-on-restrictive-confinement.share.connect.posit.cloud"
-        icon: code
-      - text: "📈 R Analysis Code"
+      - text: Prelim. DPR
+        href: "https://vanshsinghruhela-statistical-report-on-restrictive-confinement.share.connect.posit.cloud/prelim_report.html"
+      - text: Row Exp. DPR
+        href: "https://vanshsinghruhela-statistical-report-on-restrictive-confinement.share.connect.posit.cloud/final_report.html"
+      - text: GitHub
         href: "https://github.com/ruhelavansh-oss/OTIS-Report"
-        icon: github
-      - text: "📋 Data Source (Ontario Open Data)"
-        href: "https://data.ontario.ca/dataset/data-on-inmates-in-ontario"
-        icon: database
     include-in-header:
       - includez/rename-other-links.html
       - includez/sidebar-title-home.html
