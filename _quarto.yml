@@ -83,4 +83,6 @@ execute:
   message: false
   freeze: true
   cache: true
+  eval: true
+  echo: true
 
