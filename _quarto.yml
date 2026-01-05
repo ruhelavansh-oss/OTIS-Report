@@ -78,8 +78,9 @@ format:
 epub:
   cover-image: cvr1b.png
   toc: true
-execute: 
+execute:
   warning: false
   message: false
-  freeze: auto
+  freeze: true
+  cache: true
 
