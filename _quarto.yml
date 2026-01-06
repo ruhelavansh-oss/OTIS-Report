@@ -14,7 +14,7 @@ book:
   search: true 
   repo-url: https://github.com/ruhelavansh-oss/OTIS-Report
   repo-actions: [edit]
-  downloads: [pdf, epub]
+  downloads: [pdf]
   sharing: [twitter, facebook]
   date: "2026-01-01"
   sidebar:
